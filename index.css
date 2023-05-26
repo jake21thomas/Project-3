@@ -1,38 +1,139 @@
 .jumbotron {
   background-color: #284640;
   border-radius: 0;
+  height: 400px;
 }
 .lead {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #C2D6C5;
 }
 .display-4 {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 85px;
   font-weight: 900;
   color: #C2D6C5;
 }
 .navbar {
   background-color: #284640 !important;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .btn {
   background-color: #587F78;
   border: none;
+  color: white;
   border-radius: 30px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
+  padding: 10px 30px;
+  margin-top: 30px;
 }
 .navbar-nav .nav-link {
   color: white !important;
-  margin-right: 30px;
+  margin-right: 50px;
 }
 .navbar-nav {
   margin: 0 auto;
-  padding-left: 300px;
+  padding-left: 200px;
 }
 .navbar-collapse .form-inline .form-control {
   width: 300px;
   margin: 0 auto;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  margin: 0px 50px 10px 50px; 
+}
+
+
+.grid-item {
+  padding: 20px;
+  text-align: left;
+  aspect-ratio: 1/1;
+}
+
+.item1 {
+  background-color: #587F78;  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+}
+
+.item2 {
+  background-color: #8DAB7F;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+}
+
+.item3 {
+  background-color: #D3DDC6;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+}
+
+.item4 {
+  background-color: #C2D6C5;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+}
+
+.item5 {
+  background-color: #3B5663;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+}
+
+.item6 {
+  background-color: #A5C2C1;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+}
+
+.green-box {
+  height: 300px;
+  background-color: #284640;
+  margin: 30px 50px; 
+}
+
+@media (max-width: 768px) {
+  
+  .jumbotron {
+    background-color: #284640;
+    border-radius: 0;
+    height: 500px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    margin: 30px 40px 10px 50px; 
+  }
+
+  .grid-item {
+    font-size: 35px;
+    padding: 10px;
+  }
+  
+  .green-box {
+    height: 200px;
+    background-color: #284640;
+    margin: 20px 40px 10px 50px; 
+  }
+  }
+  
+  
+
