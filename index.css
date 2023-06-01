@@ -3,22 +3,26 @@
   border-radius: 0;
   height: 400px;
 }
+
 .lead {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
   color: #C2D6C5;
 }
+
 .display-4 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 85px;
   font-weight: 900;
   color: #C2D6C5;
 }
+
 .navbar {
   background-color: #284640 !important;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
 }
+
 .btn {
   background-color: #587F78;
   border: none;
@@ -29,14 +33,17 @@
   padding: 10px 30px;
   margin-top: 30px;
 }
+
 .navbar-nav .nav-link {
   color: white !important;
   margin-right: 50px;
 }
+
 .navbar-nav {
   margin: 0 auto;
   padding-left: 200px;
 }
+
 .navbar-collapse .form-inline .form-control {
   width: 300px;
   margin: 0 auto;
@@ -48,7 +55,6 @@
   grid-gap: 0px;
   margin: 0px 50px 10px 50px; 
 }
-
 
 .grid-item {
   padding: 20px;
@@ -105,9 +111,89 @@
 }
 
 .green-box {
-  height: 300px;
   background-color: #284640;
   margin: 30px 50px; 
+}
+
+.display-5 {
+  font-family: 'Lora';
+  color: white;
+}
+
+.green-box .container .text-center {
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+.article {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #8DAB7F;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.carousel {
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+
+.carousel-item img {
+  max-height: 600px; 
+  object-fit: cover; 
+}
+
+.blackline {
+  height: 3px;
+  background-color: #284640;
+  margin: 50px 50px;
+}
+
+.blackline2 {
+  height: 3px;
+  background-color: #284640;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.articleinfo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: black;
+  margin: 30px 30px 30px 30px;
+  text-align: center;
+}
+
+.card-img-top {
+  padding-top: 30px;
+  margin: 10px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.articleinfo2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.articleinfo3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: black;
+  margin: 30px 30px 30px 30px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -120,7 +206,7 @@
 
   .grid-container {
     grid-template-columns: 1fr;
-    margin: 30px 40px 10px 50px; 
+    margin: 20px 20px 20px 20px; 
   }
 
   .grid-item {
@@ -128,12 +214,16 @@
     padding: 10px;
   }
   
+  .green-box .container .text-center {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
   .green-box {
-    height: 200px;
     background-color: #284640;
-    margin: 20px 40px 10px 50px; 
+    margin: 20px 20px 20px 20px;
   }
-  }
-  
-  
 
+ 
